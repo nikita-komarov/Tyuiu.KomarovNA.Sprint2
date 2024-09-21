@@ -1,4 +1,5 @@
-﻿using Tyuiu.KomarovNA.Sprint2.Task1.V17.Lib;
+﻿using System;
+using Tyuiu.KomarovNA.Sprint2.Task1.V17.Lib;
 
 namespace Tyuiu.KomarovNA.Sprint2.Task1.V17
 {
@@ -41,6 +42,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task1.V17
             b = 123;
             c = 455;
             d = 321;
+
             bool[] result = ds.GetLogicOperations(a, b, c, d);
             foreach (bool el in result)
             {
