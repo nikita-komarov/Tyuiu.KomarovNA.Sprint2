@@ -35,7 +35,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task7.V14
 
             DataService ds = new DataService();
 
-            var result = ds.CheckDotInShadedArea(1, 1);
+            var result = ds.CheckDotInShadedArea(0.1, 0);
             Console.WriteLine(result);
             Console.ReadKey();
         }

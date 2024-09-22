@@ -9,7 +9,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task7.V14.Lib
             bool insideCircle = x * x + y * y <= 1;
 
             // Проверка на нахождение выше y = x и ниже y = -x
-            bool withinBounds = y >= x && y <= -x;
+            bool withinBounds = x >= 0 || y >= -x;
 
             // Проверка на нахождение в заштрихованной области
             if (insideCircle && withinBounds)
