@@ -8,7 +8,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task4.V19.Lib
         {
             double z = (x / 2 < y - 6)
             ? Math.Pow((6 + 4 / Math.Pow(y,2)), x)
-            : (Math.Pow(x, 2) - Math.Cos(Math.Pow(y,2))) + 10 / ((Math.Pow(y, 2) - Math.Sin(Math.Pow(y,2))) + 12);
+            : (Math.Pow(x, 2) - Math.Cos(Math.Pow(y,2)) + 10) / (Math.Pow(y, 2) - Math.Sin(Math.Pow(y,2)) + 12);
             return z;
         }
     }
