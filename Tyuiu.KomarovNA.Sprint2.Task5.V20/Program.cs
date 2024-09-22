@@ -1,5 +1,5 @@
-﻿using Tyuiu.KomarovNA.Sprint2.Task2.V17.Lib;
-namespace Tyuiu.KomarovNA.Sprint2.Task2.V17
+﻿using Tyuiu.KomarovNA.Sprint2.Task5.V20.Lib;
+namespace Tyuiu.KomarovNA.Sprint2.Task5.V20
 {
     class Program
     {
@@ -10,8 +10,8 @@ namespace Tyuiu.KomarovNA.Sprint2.Task2.V17
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Оператор if - полная и короткая форма записи                            *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #17                                                             *");
+            Console.WriteLine("* Задание #5                                                              *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Комаров Никита Алексеевич | ИИПБ-24-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *"); 
@@ -35,7 +35,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task2.V17
 
             DataService ds = new DataService();
 
-            var result = ds.CheckDotInShadedArea(1, 1);
+            var result = ds.YOURFUNCTION();
             Console.WriteLine(result);
             Console.ReadKey();
         }

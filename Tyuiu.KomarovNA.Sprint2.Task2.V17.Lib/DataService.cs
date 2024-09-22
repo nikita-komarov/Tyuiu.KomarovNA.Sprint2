@@ -6,11 +6,11 @@ namespace Tyuiu.KomarovNA.Sprint2.Task2.V17.Lib
     {
         public bool CheckDotInShadedArea(int x, int y)
         {
+            if (3 <= x && x <= 12 && 5 <= y && y <= 7) 
             {
-                Console.WriteLine("РУсский текст");
-                // немного ру
                 return true;
             }
+            return false;
         }
     }
 }
