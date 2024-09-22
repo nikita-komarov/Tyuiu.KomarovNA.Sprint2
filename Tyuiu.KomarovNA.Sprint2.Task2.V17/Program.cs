@@ -33,6 +33,9 @@ namespace Tyuiu.KomarovNA.Sprint2.Task2.V17
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
+            Console.WriteLine("Русский текст");
+            // русский текст
+
             DataService ds = new DataService();
 
             var result = ds.CheckDotInShadedArea(1, 1);
