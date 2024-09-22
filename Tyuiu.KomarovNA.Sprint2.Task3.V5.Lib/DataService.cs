@@ -23,7 +23,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task3.V5.Lib
             {
                 y = Math.Pow(x, 3) + 10 * x - (Math.Pow(x, 2) / Math.Pow(x, 4));
             }
-            return y;
+            return Math.Round(y, 3);
         }
     }
 }
