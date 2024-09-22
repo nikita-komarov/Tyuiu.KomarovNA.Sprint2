@@ -35,7 +35,7 @@ namespace Tyuiu.KomarovNA.Sprint2.Task4.V19
 
             DataService ds = new DataService();
 
-            var result = ds.Calculate(1, 1);
+            var result = ds.Calculate(10, 5);
             Console.WriteLine(result);
             Console.ReadKey();
         }
